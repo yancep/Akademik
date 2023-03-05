@@ -10,6 +10,7 @@ public class User {
     @Id
     String id;
     String usuario;
+    
     String contraseña;
 
     public String getId() {
