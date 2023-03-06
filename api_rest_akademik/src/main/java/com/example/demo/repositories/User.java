@@ -1,15 +1,16 @@
 package com.example.demo.repositories;
 
 
+import com.mongodb.lang.NonNull;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "usuarios")
-public class Usuario {
+@Document(collection = "users")
+public class User {
     @Id
     String id;
-
     String usuario;
+    
     String contraseña;
 
     public String getId() {
