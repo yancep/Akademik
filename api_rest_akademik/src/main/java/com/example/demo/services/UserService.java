@@ -1,4 +1,4 @@
-package com.example.demo.services.imp;
+package com.example.demo.services;
 
 import com.example.demo.repositories.User;
 import com.mongodb.client.MongoIterable;
